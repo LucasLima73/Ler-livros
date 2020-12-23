@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="stylehome.css"/>
+    <link rel="shortcut icon" href="ICON.ico" type="image/x-icon">
+    
+    
+    
+    
+    <title>Ler Livros</title>
+</head>
+
+<body>
+  
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"><img src="ICON.png" width="60px" height="40px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="register.html">Registre-se</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mood.html">Melhores Avaliados</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="bestseller.html">Livros baseadsos em bestsellers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Livros por carater e plott</a>
+        </li>
+
+       
+        <li class="nav-item">
+          <a class="nav-link " href="about.html" tabindex="-1" aria-disabled="true">Sobre o Ler livros</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        
+        <button type="button" class="btn btn-outline-success my-2 my-sm-0" data-toggle="modal" data-target="#exampleModal" >Login</button>    
+        &nbsp
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Portal </button>
+        &nbsp<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Doações </button>
+        </form>
+    </div>
+  </nav>
+  <!-- Modal SignIn -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Enter User Information</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <form>
+          
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail3">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword3">
+            </div>
+          </div>
+        </form>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <div class="bgimage">
+    <div class="container" >
+  <h1 class="block-effect blockbody" style="--td: 1.2s">
+    <div class="block-reveal" style="--bc: #29397c; --d: .1s">Ler Livros</div>
+    <div class="block-reveal" style="--bc: #151c3c; --d: .5s">Livros para todos!</div>
+  </h1>
+  </div>
+  </div>
+<br><br>
+<div class="gallery">
+  <img src="bestselling.jpg" alt="top" width="520" height="220">
+  <a href="bestseller.html" style="text-decoration: none;"><div class="desc">Best sellers</div></a>
+    
+  </div>
+  
+</div>
+<div class="gallery">
+  <img src="top.jpg" alt="top" width="520" height="220">
+  <a href="mood.html" style="text-decoration: none;"><div class="desc">Melhores Avaliados</div></a>
+</div>
+<div class="gallery">
+  <img src="bible.jpg" alt="drinks" width="520" height="220">
+  <a href="maisfalados.html" style="text-decoration: none;"><div class="desc">Mais falados</div></a>
+
+  
+</div>
+<div class="gallery">
+  <link rel="stylesheet" href="bestseller.html">
+  <img src="most.jpg" alt="song"  width="520" height="220">
+  <a href="maisbaixados.html" style="text-decoration: none;"><div class="desc">Mais baixados</div></a>
+ 
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="fcontainer">
+  <h1>Livro em Destaque</h1>
+  <img src="featured.jpg" height="600px" width="600px">
+  <p id="featureb">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique aliquam qui, voluptatum dignissimos commodi itaque quidem at tempora doloremque odit quo! Dolorum mollitia sequi corporis id ipsum? Totam, sapiente consectetur!</p>
+  <a href="destaques.html"><button class="btnread">Leia Agora</button></a>
+</div>
+
+<div class="footer">
+<div class="jumbotron">
+  <h1 class="display-4">Olá, leitores!</h1>
+  <img class="rimg" src="ICON.png" height="200px" width="200px">
+  <hr class="my-4">
+  <p>Searching book sites usually means keying in an author’s name or a book title. But if you know the name already, your search is likely to turn up books you’ve already heard about. No surprises there.
+
+    How about if you didn’t need an author name at all? If you could start with what you as a reader are looking for right now? You might be in the mood for a funny read, or something to make you think. Do you want a book that’s easy going or more of a challenge to get your teeth into?</p>
+  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+</div>
+</body>
+</html>
